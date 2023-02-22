@@ -54,7 +54,7 @@ const PersistLogin = () => {
         console.log('loading')
         content = <PulseLoader color={"#FFF"} />
     } else if (isError) { // yes persist, no token
-        console.log('loading')
+        console.log('error')
         content = (
             <p className='errmsg'>
                 {`${error?.data?.message} - `}
