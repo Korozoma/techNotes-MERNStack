@@ -128,7 +128,7 @@ const DashHeader = () => {
 
     const content = (
         <>
-            <p className={errClass}>{error?.data?.message}</p>\
+            <p className={errClass}>{error?.data?.message}</p>
 
             <header className="dash-header">
                 <div className={`dash-header__container ${dashClass}`}>
